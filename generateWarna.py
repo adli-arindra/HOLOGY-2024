@@ -4,7 +4,7 @@ import numpy as np
 fcsv = open("warna.csv", "w")
 fcsv.write("id, r, g, b\n")
 
-path = "processed/"
+path = "processed_train/"
 
 for id in range(1, 778):
     img = plt.imread(path + f"{id}.jpg")
